@@ -4,7 +4,7 @@ import { ArrowDown, ArrowRight, Check, ChevronDown, Clock3, Heart, MessageCircle
 import './styles.css';
 
 // IMPORTANTE: reemplaza esta URL por el enlace real de checkout de tu producto en Hotmart.
-const HOTMART_CHECKOUT_URL = 'PEGA_AQUI_TU_ENLACE_DE_CHECKOUT_HOTMART';
+const HOTMART_CHECKOUT_URL = 'https://pay.hotmart.com/G108096905G';
 const PRICE = '9,99';
 const oldPrice = '19,99';
 const checkoutReady = HOTMART_CHECKOUT_URL.startsWith('https://') && !HOTMART_CHECKOUT_URL.includes('PEGA_AQUI');
